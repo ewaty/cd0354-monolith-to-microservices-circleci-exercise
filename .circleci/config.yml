@@ -5,7 +5,7 @@ jobs:
   build:            # job name
     docker:         # executor type
       - image: cimg/base:current # Docker image that installs Docker and has Git,
-    working_directory: ~/app
+    working_directory: ~/app # more commentary
     steps:
       - checkout
       - setup_remote_docker:
